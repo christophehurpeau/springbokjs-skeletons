@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.1",
   "dependencies": {
-    "springbokjs-base": "0.1.0",
+    "springbokjs-base": "0.1.1",
     "springbokjs-shim": "0.1.0",
     "express": "^3.5.1"
   }
