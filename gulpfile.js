@@ -10,6 +10,13 @@ require('springbokjs-base/gulptask.js')(pkg, gulp, {
             'node_modules/springbokjs-shim/init.js',
             //'node_modules/ejs/ejs.min.js'
         ]
+    },
+    browserify: {
+        beforeBundle: function(bundle) {
+            bundle
+                .require('springbokjs-utils')
+                .require('springbokjs-browser');
+        }
     }
 });
 
