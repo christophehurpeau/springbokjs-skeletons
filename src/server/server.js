@@ -1,5 +1,7 @@
 var express = require('express');
 var app = express();
+global.S = require('springbokjs-utils');
+
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
 
@@ -8,6 +10,8 @@ var argv = require('minimist')(process.argv.slice(2), {
         'production': 'prod'
     }
 });
+
+app.locals.basepath = argv.basepath || '/';
 
 if (!argv.production) {
     console.log('Dev mode');
@@ -21,7 +25,7 @@ if (!argv.production) {
     console.log('Production mode');
 }
 
-app.get('*', (req, res) => res.render('index', { basepath: argv.basepath || '/', URL: req.path }));
+app.get('/', (req, res) => res.render('index', { URL: req.path }));
 
 app.use(express.static(__dirname +'/../../public'));
 
