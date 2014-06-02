@@ -19,6 +19,7 @@
 *.out
 
 /dist
+/lib
 /public/dist
 /public/images
 vendor

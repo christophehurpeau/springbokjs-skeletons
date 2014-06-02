@@ -11,6 +11,7 @@ update:
 clean:
 	rm -Rf public/dist/*
 	rm -Rf public/images/*
+	rm -Rf lib/*
 	gulp springbokjs-shim
 
 watch:

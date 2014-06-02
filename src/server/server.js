@@ -1,6 +1,6 @@
+require('./init');
 var express = require('express');
 var app = express();
-global.S = require('springbokjs-utils');
 
 app.set('view engine', 'ejs');
 app.set('views', __dirname + '/views');
