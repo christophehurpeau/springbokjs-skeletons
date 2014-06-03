@@ -1,10 +1,10 @@
 install:
-	npm install
+	sudo chown -R $USER ~/.npm node_modules ; npm install
 	bower install
 	gulp springbokjs-shim
 
 update:
-	npm update
+	sudo chown -R $USER ~/.npm node_modules ; npm update
 	bower update
 	gulp springbokjs-shim
 
@@ -15,4 +15,5 @@ clean:
 	gulp springbokjs-shim
 
 watch:
-	gulp watch
+	gulp watch --env='dev'
+
