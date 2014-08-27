@@ -5,11 +5,12 @@
   "dependencies": {
     "connect-livereload": "^0.4.0",
     "ejs": "^1.0.0",
-    "express": "^4.4.0",
-    "gulp": "^3.7.0",
-    "minimist": "^0.1.0",
-    "springbokjs-base": "^0.9.1",
-    "springbokjs-shim": "^0.1.16",
-    "springbokjs-utils": "^0.3.19"
+    "express": "^4.8.5",
+    "gulp": "^3.8.7",
+    "minimist": "^1.1.0",
+    "springbokjs-base": "^0.18.3",
+    "springbokjs-logger": "^1.5.2",
+    "springbokjs-shim": "^0.1.19",
+    "springbokjs-utils": "^0.3.23"
   }
 }
