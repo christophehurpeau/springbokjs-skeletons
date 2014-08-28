@@ -25,3 +25,5 @@
 vendor
 node_modules
 bower_components
+
+/src/config/local.yml
