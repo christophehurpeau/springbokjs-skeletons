@@ -3,15 +3,15 @@
   "private": true,
   "version": "0.0.1",
   "dependencies": {
-    "connect-livereload": "^0.4.0",
+    "connect-livereload": "^0.5.0",
     "ejs": "^1.0.0",
-    "express": "^4.9.5",
-    "gulp": "^3.8.8",
+    "express": "^4.10.1",
+    "gulp": "^3.8.9",
     "minimist": "^1.1.0",
-    "springbokjs-base": "^0.20.3",
-    "springbokjs-errors": "^0.1.3",
-    "springbokjs-logger": "^1.6.0",
-    "springbokjs-shim": "^0.1.20",
-    "springbokjs-utils": "^0.5.7"
+    "springbokjs-base": "^0.25.2",
+    "springbokjs-errors": "^0.2.1",
+    "springbokjs-logger": "^2.0.0",
+    "springbokjs-shim": "^0.2.1",
+    "springbokjs-utils": "^0.6.5"
   }
 }
