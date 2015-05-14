@@ -9,7 +9,6 @@ require('springbokjs-base/gulptask.js')(pkg, gulp, {
         js: [
             // here put js files from bower or node_modules or other assets,
             // included before files from src/browser/js/ folder.
-            'node_modules/springbokjs-shim/init.js',
             //'node_modules/ejs/ejs.min.js'
         ]
     },

@@ -2,7 +2,7 @@ require('./init');
 var fs = require('fs');
 var express = require('express');
 var errorsParser = require('springbokjs-errors');
-var ErrorHtmlRenderer = require('springbokjs-errors/htmlRenderer');
+import { HtmlRenderer as ErrorHtmlRenderer } from 'springbokjs-errors/lib/HtmlRenderer';
 var errorHtmlRenderer = new ErrorHtmlRenderer();
 var app = express();
 
